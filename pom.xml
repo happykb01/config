@@ -22,7 +22,7 @@
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-config-server</artifactId>
+			<artifactId>spring-cloud-config-server</artifactId> <!-- 핵심 라이브러 -->
 		</dependency>
 
 		<dependency>
@@ -37,7 +37,7 @@
 			</exclusions>
 		</dependency>
 		
-		<!-- mq --> 		
+		<!-- mq 연결하기위함 --> 		
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-bus-amqp</artifactId>			
